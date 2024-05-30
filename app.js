@@ -15,7 +15,7 @@ async function initApp() {
 
 async function getPosts() {
   const response = await fetch(
-    "http://programmingexam.aleksandraciesla.dk/wp-json/wp/v2/projects?acf_format=standard"
+    "https://programmingexam.aleksandraciesla.dk/wp-json/wp/v2/projects?acf_format=standard"
   );
   const data = await response.json();
   return data;
